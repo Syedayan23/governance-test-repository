@@ -3,6 +3,9 @@ name: Governance Test Pipeline
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
